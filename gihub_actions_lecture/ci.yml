@@ -1,0 +1,13 @@
+# Name
+# Trigger
+# Job
+  # Steps
+
+Name: CI Pipeline 
+
+on: push
+
+jobs: 
+  run-test:
+  runs-on: ubuntu-latest
+  
